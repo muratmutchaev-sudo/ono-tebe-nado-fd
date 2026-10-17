@@ -42,28 +42,29 @@
     <main>
       <section class="cover">
         <div class="overlay"></div>
-          <h1 class="cover_title">
-            <span class="aligned-text_left">оно</span>
-            <span class="aligned-text_center">тебе</span>
-            <span class="aligned-text_right">надо</span>
-          </h1>
-          <div class="description">
-            <p class="cover__description-text">
-              Аукцион вещей, вкоторые никто не верил
-            </p>
-            <button class="button">Сделать ставку</button>
-          </div>
+        <h1 class="cover_title">
+          <span class="aligned-text_left">оно</span>
+          <span class="aligned-text_center">тебе</span>
+          <span class="aligned-text_right">надо</span>
+        </h1>
+        <div class="description">
+          <p class="cover__description-text">
+            Аукцион вещей, вкоторые никто не верил
+          </p>
+          <button class="button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
-        <h3 class="lots_title">Лоты</h3>
-        <ul>
-          <li>
-            <a href="images/card-lot-01.jpg">
-              <article>
-                <h4 class="lots_title_text">
+        <h3 class="lots__heading">Лоты
+        </h3>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a href="#0" class="card-link">
+              <article class="card card_type_film">
+                <h4 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h4>
-                <p class="lots_text">
+                <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
                   Андерсон?
@@ -71,13 +72,13 @@
               </article>
             </a>
           </li>
-          <li>
-            <a href="images/card-lot-02.jpg">
-              <article>
-                <h4 class="lots_title_text">
+          <li class="lots__card-list-item">
+            <a  href="#0" class="card-link">
+              <article class="card card_type_book">
+                <h4 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h4>
-                <p class="lots_text">
+                <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
                   рассказывается о 16 июня 1904 года и об истории литературы,
@@ -88,13 +89,13 @@
               </article>
             </a>
           </li>
-          <li>
-            <a href="images/card-lot-03.jpg">
-              <article>
-                <h4 class="lots_title_text">
+          <li class="lots__card-list-item">
+            <a href="#0" class="card-link">
+              <article class="card card_type_picture">
+                <h4 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h4>
-                <p class="lots_text">
+                <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                   котиков... Сколько бы вы на такое поставили, если бы не знали,
@@ -104,7 +105,7 @@
             </a>
           </li>
           <li>
-            <a class="lots_link" href="#0">посмотреть больше</a>
+            <a class="lots__look-more-link" href="#0">посмотреть больше</a>
           </li>
         </ul>
       </section>
