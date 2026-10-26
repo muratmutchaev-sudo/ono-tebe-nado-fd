@@ -19,7 +19,7 @@ body{
   font-size: 18px;
   list-style:circle;
 }
-.header_links-list-item{
+.header__links-list-item{
   text-decoration: underline;
   white-space: nowrap;
 
@@ -86,7 +86,7 @@ body{
 
 }
 
-.cover_title{
+.cover__title{
   position: relative;
   z-index: 2;
   display: flex;
