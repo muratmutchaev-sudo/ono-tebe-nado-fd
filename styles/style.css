@@ -128,9 +128,9 @@ body {
 }
 
 .button {
-  margin-left: 106px;
+  margin-left: 108px;
   border: 1px white solid;
-  padding: 12px 32px;
+  padding: 11px 33px;
   color: white;
   font-weight: normal;
   font-size: 22px;
@@ -311,6 +311,7 @@ body {
   justify-content: center;
   font-size: 18px;
   line-height: 21px;
+  
 }
 
 .footer__social-list {
