@@ -58,6 +58,8 @@ body {
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
+  text-decoration-thickness: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .cover {
@@ -148,7 +150,6 @@ body {
 
 .lots__heading {
   display: block;
-  margin-bottom: 27px;
   margin-left: 38px;
   font-weight: 700;
   font-size: 40px;
@@ -161,8 +162,7 @@ body {
   grid-template-columns: repeat(3, minmax(334px, 1fr));
   row-gap: 30px;
   column-gap: 25px;
-  margin: 0;
-  padding: 0;
+  margin-top: 27px;
   list-style: none;
 }
 
@@ -215,6 +215,8 @@ body {
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-transform: uppercase;
+  text-decoration-thickness: from-font;
+  text-underline-offset:4px;
 }
 
 .card__text {
